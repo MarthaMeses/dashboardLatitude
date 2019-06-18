@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HUMIDITY</title>
+    <!-- BOOTSTRAP CSS-->
+    <link rel="stylesheet" href="./Scripts/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container" >
+      <br>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="./index.html">LATITUDE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>          
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PLOTS</a>
+              <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 40px, 0px);">
+                <a class="dropdown-item" href="./max_temperature.html">MAX TEMPERATURE</a>
+                <a class="dropdown-item" href="./humidity.html">HUMIDITY</a>
+                <a class="dropdown-item" href="./cloudiness.html">CLOUDINESS</a>
+                <a class="dropdown-item" href="./wind_speed.html">WIND SPEED</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./comparisions.html">COMPARISONS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./data.html">DATA</a>
+            </li>
+          </ul>
+        </div>  
+      </nav>
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="page-header">
+              <h1 class="text-info"><strong>HUMIDITY</strong></h1>
+              <br>
+            </div>
+          </div>
+        </div> <!--ROW TITLE-->
+        <div class="row">
+          <div class="col-lg-5 offset-lg-1">
+            <img src="./Resources/humidity.png" alt="">
+            <p style="text-align:justify">
+              On the Northern Hemisphere, between latitude 0 and 40 deg. there are more dry cities than in its counterpart on the southern hemisphere.
+            </p>
+          </div>
+          <div class="col-lg-5">
+              <div class="card border-info mb-3" style="max-width: 40rem;">
+                  <div class="card-header">
+                    <h3 class="card-title">
+                        <p class="text-info">VISUALITATIONS</p>
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                      <div class="row">
+                          <div class="col-lg-5 offset-lg-1"> 
+                              <p class="text-info"><small>vs MAX TEPERATURE</small></p>
+                              <a href="./max_temperature.html"><img style="max-width:100%; max-height:100%;" src="./Resources/maxTemp.png" alt="maxTemp"></a>
+                          </div>
+                          <div class="col-lg-5 offset-lg-1">
+                             <div class="card border-info mb-3">
+                                <p class="text-info" style="text-align:center"><small><strong>HUMIDITY</strong></small></p>                   
+                                <img style="max-width:100%; max-height:100%;" src="./Resources/humidity.png" alt="humidity">     
+                             </div>                 
+                          </div>
+                      </div>
+                      <br>
+                      <div class="row">
+                          <div class="col-lg-5 offset-lg-1">
+                              <p class="text-info"><small>vs CLOUDINESS</small></p>                        
+                              <a href="./cloudiness.html"><img style="max-width:100%; max-height:100%;" src="./Resources/cloudiness.png" alt="cloudiness"></a>                        
+                          </div>
+                          <div class="col-lg-5 offset-lg-1">
+                              <p class="text-info"><small>vs WIND SPEED</small></p>                        
+                              <a href="./wind_speed.html"><img style="max-width:100%; max-height:100%;" src="./Resources/windSpeed.png" alt="windSpeed"></a>                        
+                          </div>
+                        </div>        
+                  </div> <!--CARD BODY-->
+              </div>
+          </div>
+        </div>             
+      </div><!--  JUMBOTRON -->
+    </div><!--  CONTAINER -->
+    <p style="text-align:center; margin:5px;">Copyright &copy; 2019</p>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="./Scripts/bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js"></script>
+    <script src="./Scripts/bootstrap-4.3.1-dist/js/popper.min.js"></script>
+    <script src="./Scripts/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
